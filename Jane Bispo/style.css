@@ -1,0 +1,142 @@
+/* Definindo as cores principais */
+:root {
+	--cor-primaria: #930BB5;
+	--cor-secundaria: #FCAEDD;
+	--cor-branca: #FFFFFF;
+}
+
+/* Resetando as configurações padrão */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Definindo as fontes */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--cor-primaria);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+/* Definindo os estilos para o cabeçalho */
+header {
+	background-color: var(--cor-secundaria);
+	color: var(--cor-branca);
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 2rem;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+header nav ul li {
+	margin-right: 1rem;
+}
+
+header nav ul li a {
+	color: var(--cor-branca);
+	text-decoration: none;
+	padding: 0.5rem;
+	transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+	background-color: var(--cor-branca);
+	color: var(--cor-primaria);
+}
+
+/* Definindo os estilos para os links */
+a {
+	color: var(--cor-primaria);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: var(--cor-secundaria);
+}
+
+/* Definindo os estilos para o formulário */
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+form label {
+	margin-bottom: 0.5rem;
+}
+
+form input {
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	border-radius: 5px;
+	border: none;
+	background-color: var(--cor-branca);
+	color: var(--cor-primaria);
+}
+
+form input[type="submit"] {
+	background-color: var(--cor-secundaria);
+	color: var(--cor-branca);
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: var(--cor-primaria);
+	color: var(--cor-branca);
+}
+
+/* Definindo os estilos para as seções */
+section {
+	margin-bottom: 2rem;
+}
+
+section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: var(--cor-primaria);
+}
+
+/* Definindo os estilos para a seção de planos */
+section#planos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section#planos div {
+	flex-basis: 33%;
+	text-align: center;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background-color: var(--cor-branca);
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+section#planos div h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	color: var(--cor-primaria);
+}
+
+section#planos div p {
+	margin-bottom: 0.5rem;
+	color: var(--cor-primaria);
+}
