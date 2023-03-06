@@ -82,6 +82,25 @@ form label {
   margin-bottom: 0.5rem;
 }
 
+form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--cor-branca);
+  color: var(--cor-primaria);
+}
+
+form input[type="submit"] {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: var(--cor-primaria);
+  color: var(--cor-branca);
+}
 
 section {
   margin-bottom: 2rem;
@@ -93,54 +112,15 @@ section h2 {
   color: var(--cor-primaria);
 }
 
+footer {
+  background-color: #f2f2f2;
+  padding: 30px 0;
+}
 
-#equipe {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  margin: 2rem;
-}
-
-footer {
-  background-color: #f2f2f2;
-  padding: 30px 0;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.item {
-  margin: 0 20px;
-  text-align: center;
-}
-
-.redes-sociais {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.redes-sociais a {
-  margin: 0 5px;
-}
-
-h2, h3 {
-  margin-bottom: 10px;
-}
-footer {
-	justify-content: space-evenly;
-  background-color: #f2f2f2;
-  padding: 30px 0;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .item {

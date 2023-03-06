@@ -165,3 +165,74 @@ h2, h3 {
     width: 35px;
     height: 35px;
 }
+  /* Estilo para os planos */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.article.destaque {
+  background-color: #eee;
+  border-color: #999;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Estilo para a galeria de vídeos */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+/* Estilo para a seção do Studio */
+figure {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.article {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
